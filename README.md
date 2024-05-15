@@ -37,3 +37,5 @@ https://translate.google.com.tw/?hl=zh-TW&tab=wT&authuser=0#ja/zh-TW/%E4%BA%BA%E
 最後再做些排版加上說明文就完成...應該只能算是半成品。<br>
 在網站中的圖片在不做商業或廣告用途時是允許被使用的。<br>
 還要做的：n秒後再跳轉、真正的清除按鈕(其實那個清除只是單純的重新整理)
+
+![image](https://github.com/aazz9116/Multi-Translation/blob/master/screenshot.jpg)
