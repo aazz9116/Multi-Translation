@@ -1,7 +1,7 @@
 # Multi-Translation<br>
 大三網頁與資料庫實作期末專案<br>
 主要用於查詢日文單字的解釋，在文字框輸入日文單字後，會分別在三個框架顯示出不同網站的查詢結果。<br>
-※コトバンク、goo辞書已無法使用<br>
+※コトバンク、goo辞書已無法顯示於iframe<br>
 <br>
 # 使用工具<br>
 HeidiSQL、UniServerZ(for start MySQL & Apache)、Atom<br>
