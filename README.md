@@ -35,7 +35,7 @@ https://translate.google.com.tw/?hl=zh-TW&tab=wT&authuser=0#ja/zh-TW/%E4%BA%BA%E
 呈現在網址列上<br>
 所以必須要先將GET到的字串，利用urlencode方法轉換成url用的編碼字串，再加進去url中。<br>
 最後再做些排版加上說明文就完成...<br><br>
-在網站中的圖片在不做商業或廣告用途時是允許被使用的。<br>
+網頁中的圖片在不做商業或廣告用途時是允許被使用的。<br>
 還要做的：n秒後再跳轉、真正的清除按鈕(其實那個清除只是單純的重新整理)<br>
 
 ![image](https://github.com/aazz9116/Multi-Translation/blob/master/screenshot.jpg)
