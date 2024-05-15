@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<script language="Javascript">
+function hbsubmit(){
+document.form1.target="weblio";
+document.form1.action="weblio.php";
+document.form1.submit();
+document.form1.target="kotobank";
+document.form1.action="kotobank.php";
+document.form1.submit();
+document.form1.target="goo";
+document.form1.action="goo.php";
+document.form1.submit();
+}
+</script>
+</head>
+<body>
+  <form action="" name="form1" method="GET" target="weblio">
+    請輸入要翻譯的日文單字(例：へそ、駆引き、一押し...)：<input type=text name="word">
+    <input type="button" name="Submit" value="查詢" onClick="hbsubmit()">
+    <input type="button" onClick="location.reload()" value="清除">
+  </form>
+
+  <p>
+    <hr>
+    使用說明(中文)：<br>
+    看到不懂的日文單字，輸入到上面的框框，下方的三個框架中會分別列出不同日文辭典網站的解釋！<br>
+    <hr>
+    使用説明(日本語)：<br>
+    分からない言葉があったらここで入力或はコピペしてください...と言いたいが...<br>
+    日本語読める人ならたぶん説明不要。JK語など変な言葉はここで貼らないでください。<hr>
+  </p>
+
+  <iframe src="kotobank.php" name="kotobank" width="450" height="600" frameborder="1" bordercolor="#0A0A0A">
+  </iframe>
+
+  <iframe src="goo.php" name="goo" width="800" height="600" frameborder="1" bordercolor="#0A0A0A">
+  </iframe>
+
+  <iframe src="weblio.php" name="weblio" width="1260" height="600" frameborder="1" bordercolor="#0A0A0A">
+  </iframe>
+
+</body>
+</html>
