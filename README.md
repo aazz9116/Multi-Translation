@@ -2,7 +2,7 @@
 大二下網頁與資料庫實作期末專案<br>
 主要用於查詢日文單字的解釋，在文字框輸入日文單字後，會分別在三個框架顯示出不同網站的查詢結果。<br>
 使用html/JavaScript/php撰寫，可將單字&解釋儲存於資料庫，並可將資料庫內容直接顯示於網頁。<br>
-<b>※コトバンク、goo辞書已無法顯示於iframe</b><br>
+<b>※コトバンク、goo辞書網頁已無法顯示於iframe</b><br>
 <br>
 # 使用工具<br>
 HeidiSQL、UniServerZ(for start MySQL & Apache)、Atom<br>
